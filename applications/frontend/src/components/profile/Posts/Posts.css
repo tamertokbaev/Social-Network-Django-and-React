@@ -1,0 +1,94 @@
+.post-add{
+    margin: 5px 0;
+    display: flex;
+}
+
+.post-add-textarea{
+    width: 80%;
+    height: 30px;
+}
+
+.post-add-submit{
+    background-color: rgb(81 129 184);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 30px;
+    width: 115px;
+    border: none;
+    font-size: 14px;
+}
+
+.post-add-submit:hover{
+    background-color: #6690C0;
+}
+
+
+.posts{
+    margin-top: 10px;
+}
+
+.post-item{
+    margin: 5px 0;
+}
+
+.post-item-header{
+    display: flex;
+}
+
+.post-item-header-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.post-item-info{
+    margin-left: 10px;
+    line-height: 14px;
+}
+
+.post-item-created{
+    margin-top: 7px;
+    font-size: 13px;
+    color: gray;
+}
+
+.dropdown-arrow{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    right: 0;
+}
+
+.dropdown-arrow img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0;
+}
+
+.dropdown-child {
+    display: none;
+    width: 125px;
+    background-color: white;
+}
+.dropdown-child a {
+    color: black;
+    border: 1px solid black;
+    border-color: rgba(1, 1, 1, 0.25);
+    font-size: 13px;
+    padding: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-arrow:hover .dropdown-child {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+.dropdown-child a:hover{
+    background-color: #EDEEF0;
+}

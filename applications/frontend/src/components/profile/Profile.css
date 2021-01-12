@@ -1,0 +1,29 @@
+main{
+    background-color: white;
+    padding-top: 15px;
+}
+
+.profile_photo{
+    height: 200px;
+    width: 200px;
+}
+
+.profile_photo img{
+    height: 200px;
+    width: 200px;
+}
+
+.user-info-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-full-name{
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.user-status{
+    opacity: .8;
+    font-size: 16px;
+}

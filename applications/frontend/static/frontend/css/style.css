@@ -1,0 +1,98 @@
+body{
+    background-color: #EDEEF0;
+}
+
+header{
+    width: 100%;
+    background-color: #5181B8;
+    height: 50px;
+}
+
+img{
+    width: 100%;
+    height: 50px;
+}
+
+.main{
+    margin-top: 15px;
+}
+
+/* aside part */
+
+.nav_menu{
+    margin-top: 20px;
+    list-style: none;
+}
+
+.menu_item{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item_link{
+    color: black;
+}
+
+.item_link:hover{
+    text-decoration: none;
+}
+
+/* main content part */
+
+main{
+    background-color: white;
+    padding-top: 15px;
+}
+
+.profile_photo{
+    height: 200px;
+    width: 200px;
+}
+
+.profile_photo img{
+    height: 200px;
+    width: 200px;
+}
+
+.user-info-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-full-name{
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.user-status{
+    opacity: .8;
+    font-size: 16px;
+}
+
+
+/* messages */
+
+.message{
+    width: 100%;
+    margin: 5px;
+    display: flex;
+}
+
+.message-sender-avatar{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.message-content{
+    width: 80%;
+}
+
+.message-text{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

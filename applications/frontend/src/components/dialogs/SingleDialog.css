@@ -1,0 +1,70 @@
+.message-panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(1, 1, 1, 0.15);
+}
+
+.back-btn{
+    display: flex;
+    align-items: center;
+}
+
+.left-arrow{
+    width: 20px;
+}
+
+.dialog-author{
+    text-align: center;
+    line-height: 16px;
+}
+
+.author-name{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.author-status{
+    opacity: .8;
+    font-size: 12px;
+}
+
+.dialog-avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.message-list{
+    padding-top: 20px;
+}
+
+.dialog-message{
+    display: flex;
+    margin-top: 10px;
+}
+
+.dialog-message:nth-child(1){
+    margin-top: 0;
+}
+
+.dialog-message-avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.dialog-message-wrapper{
+    margin-left: 10px;
+}
+
+.dialog-message-text{
+    margin-top: 5px;
+}
+
+.dialog-message-author{
+    line-height: 14px;
+    font-weight: 500;
+    color:  #5181B8;
+}

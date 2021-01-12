@@ -1,0 +1,18 @@
+.nav_menu{
+    margin-top: 20px;
+    list-style: none;
+}
+
+.menu_item{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item_link{
+    color: black;
+}
+
+.item_link:hover{
+    text-decoration: none;
+}
